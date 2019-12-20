@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+html {
+    font: 1.5rem Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+body {
+    height: calc(100% - 20px);
+}
+
+#wrapper {
+    border: 2px solid red;
+    display: flex;
+    height: 400px;
+}
+
+.inner-box {
+    border: 2px solid blue;
+    min-width: 200px;
+    height: 50%;
+}
+
+/* START YOUR CODE HERE */
+
+#wrapper {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}

@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% include 'nav.html' %}
+
+<form method="POST" action="https://formspree.io/myrkqdqx">
+    <input type="text" name="name" placeholder="Your name">
+    <input type="email" name="email" placeholder="Your email">
+    <textarea name="message" placeholder="Test Message"></textarea>
+    <button type="submit">Send Test</button>
+</form>
+
+{% endblock %}
+
+
+<!-- method="POST" action="https://formspree.io/hayleyavw@gmail.com"-->

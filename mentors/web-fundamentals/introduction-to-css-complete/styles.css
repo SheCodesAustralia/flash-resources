@@ -1,0 +1,61 @@
+* {
+    padding: 5px;
+}
+
+html {
+    background-color: mediumslateblue;
+}
+
+body {
+    background-color: yellow;
+}
+
+header {
+    background-color: lightcoral;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+h1 {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: skyblue;
+}
+
+h2 {
+    background-color: darkseagreen;
+}
+
+nav {
+    background-color: cornsilk;
+}
+
+a {
+    background-color: slategray;
+}
+
+div {
+    background-color: peachpuff;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    background-color: plum;
+}
+
+nav a {
+    display: block;
+}
+
+.special-link {
+    border: 2px solid black;
+}
+
+#index-link {
+    border: 2px dashed green;
+}
+
+img {
+    width: 200px;
+}

@@ -1,0 +1,115 @@
+html {
+    background-color: #424242
+}
+
+body {
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+    padding-right: 10px;
+}
+
+nav a {
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 2px;
+    background-color: #FF6600;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 4px 7px 10px rgba(0, 0, 0, 0.5);
+}
+
+a#selected {
+    font-weight: bolder;
+}
+
+#main-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+}
+
+#main-heading img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 30px;
+    border: 1px solid #FF3399;
+    box-shadow: 4px 7px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    margin: 0px;
+    text-align: center;
+    color: #FF3399;
+    font-size: 3.5rem;
+    text-shadow: 4px 7px 10px rgba(0, 0, 0, 0.5);
+}
+
+p {
+    font-weight: 500;
+}
+
+h2, h3 {
+    padding: 10px 15px;
+    border-radius: 2px;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+h2 {
+    background-color: #0099FF;
+}
+
+#flash {
+    margin: 50px 50px;
+    text-align: justify;
+}
+
+#flash-intro h2 {
+    text-align: center;
+}
+
+#flash-days {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flash-day {
+    flex-basis: 48%;
+}
+
+.flash-day h3 {
+    text-align: center;
+    background-color: #00CC33;
+}
+
+.flash-day p,
+#flash-intro p {
+    margin-top: 0;
+    padding: 10px;
+    background-color: #fff;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    box-shadow: 4px 7px 10px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    margin: 0;
+    color: #fff;
+}

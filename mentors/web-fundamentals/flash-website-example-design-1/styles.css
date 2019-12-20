@@ -1,0 +1,105 @@
+html {
+    background-color: snow
+}
+
+body {
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+    padding-right: 10px;
+    background-color: #fff;
+}
+
+nav a {
+    margin: 10px;
+    color: #91EAE4;
+}
+
+a#selected {
+    color: #7F7FD5;
+    font-weight: bolder;
+}
+
+#main-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    background: #7F7FD5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: #4568DC;  fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #B06AB3, #4568DC); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#main-heading img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 30px;
+    box-shadow: 4px 7px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    margin: 0px;
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+}
+
+p {
+    font-weight: 500;
+}
+
+h2, h3 {
+    /* text-decoration: underline;
+    text-decoration-color: #7F7FD5; */
+    color: #7F7FD5;
+}
+
+#flash {
+    margin: 50px 50px;
+    text-align: justify;
+}
+
+#flash-intro h2 {
+    text-align: center;
+}
+
+#flash-days {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flash-day {
+    flex-basis: 45%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.flash-day h3 {
+    text-align: center;
+}
+
+footer {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #7F7FD5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}

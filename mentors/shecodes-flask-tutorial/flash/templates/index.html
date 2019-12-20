@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% include 'nav.html' %}
+
+<h1>My Week at Flash</h1>
+
+{% for project in all_projects %}
+    <div>
+        <h3>{{ project.name }}</h3>
+        <p>{{ project.description }}</p>
+    </div>
+{% endfor %}
+
+{% endblock %}

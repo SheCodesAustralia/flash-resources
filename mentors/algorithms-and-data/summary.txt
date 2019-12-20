@@ -1,0 +1,28 @@
+Zena Engebretson: 0.66
+Celinda Bonavita: 0.30
+Lucio Persing: 0.50
+Juliette Severs: 0.65
+Kelly Humfeld: ABSENT
+Franklyn Hornick: 0.08
+Newton Novello: 0.23
+Sammy Sheppard: 0.11
+Polly Bly: 0.70
+Genevive Finch: 0.58
+Teodora Etheredge: 0.13
+Sunshine Mcniff: 0.74
+Vicki Tito: 0.29
+Clemmie Birkhead: 0.48
+Mohammad Luz: 0.64
+Lissette Mellon: 0.10
+Mozell Mcduffie: 0.86
+Devin Bolten: 0.21
+Bridget Pottorff: 0.13
+Deedee Crumble: 0.44
+=======================================
+Number of students who sat the exam: 19
+Number of students who were absent: 1
+The min score was 0.08
+The LQ score was 0.21
+The median score was 0.48
+The UQ score was 0.66
+The max score was 0.86

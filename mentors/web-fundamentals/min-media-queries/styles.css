@@ -1,0 +1,39 @@
+body {
+    height: 100vh;
+    background-color: red;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    body {
+        background-color: orange;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    body {
+        background-color: yellow;
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    body {
+        background-color: green;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    body {
+        background-color: blue;
+    }
+ }
+
+ /* MASSIVE devices (large desktops, 1440px and up) */
+@media (min-width: 1440px) {
+    body {
+        background-color: purple;
+    }
+ }

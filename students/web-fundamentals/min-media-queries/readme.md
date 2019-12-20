@@ -1,0 +1,1 @@
+An example to demonstrate media queries. The page changes colour at different screen sizes.

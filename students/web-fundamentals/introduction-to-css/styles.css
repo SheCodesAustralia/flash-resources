@@ -1,0 +1,39 @@
+* {
+    padding: 5px;
+}
+
+html {
+    background-color: mediumslateblue;
+}
+
+body {
+    background-color: yellow;
+}
+
+header {
+    background-color: lightcoral;
+}
+
+h1 {
+    background-color: skyblue;
+}
+
+h2 {
+    background-color: darkseagreen;
+}
+
+nav {
+    background-color: cornsilk;
+}
+
+a {
+    background-color: slategray;
+}
+
+div {
+    background-color: peachpuff;
+}
+
+footer {
+    background-color: plum;
+}

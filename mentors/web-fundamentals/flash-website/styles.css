@@ -1,0 +1,27 @@
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#main-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#flash-intro {
+    text-align: center;
+}
+
+#flash-days {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flash-day {
+    flex-basis: 40%;
+}
+
+footer {
+    text-align: center;
+}

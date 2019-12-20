@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+html {
+    font: 1.5rem Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+body {
+    height: calc(100% - 20px);
+}
+
+#wrapper {
+    border: 2px solid green;
+}
+
+.outer-box {
+    border: 2px solid red;
+}
+
+.inner-box {
+    border: 2px solid blue;
+}
+
+/* START YOUR CODE HERE */
+
+#wrapper {
+    display: flex;
+    height: 70%;
+}
+
+.outer-box {
+    flex-basis: 50%
+}
+
+#outer-box-1, #outer-box-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#outer-box-1 #box-2 {
+    flex-grow: 2
+}
+
+#outer-box-1 #box-3 {
+    flex-grow: 3
+}
+
+#outer-box-2 #box-4 {
+    order: 3;
+}
+
+#outer-box-2 #box-5 {
+    align-self: flex-end;
+    order: 1;
+}
+
+#outer-box-2 #box-6 {
+    order: 2
+}
+
+#outer-box-3 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#outer-box-3 .inner-box {
+    flex-grow: 1;
+}
