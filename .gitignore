@@ -1,0 +1,6 @@
+.venv/
+.vscode/
+.DS_Store
+*.zip
+*.sqlite
+__pycache__
